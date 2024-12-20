@@ -1,4 +1,4 @@
-package ExResolvidos;
+package ExResolvidos.ExR001at010;
 
 public class ExR007 {
 
