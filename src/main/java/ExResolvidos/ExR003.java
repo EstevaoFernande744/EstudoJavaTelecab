@@ -1,4 +1,4 @@
-package com.example;
+package ExResolvidos;
 
 public class ExR003 {
 
