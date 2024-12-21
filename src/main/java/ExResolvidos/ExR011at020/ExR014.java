@@ -1,4 +1,4 @@
-package ExResolvidos;
+package ExResolvidos.ExR011at020;
 
 import java.util.Scanner;
 
