@@ -13,20 +13,23 @@ public class ExR015 {
         double salario = sc.nextDouble();
         double valorImposto;
 
-        if (salario <= 2001.00){
+        if (salario <= 2000.00){
             valorImposto = 0.00;
-            System.out.printf("O valor do imposto é 0");
         }
-        else if(salario <= 3001.00){
-            valorImposto = (salario / 100) * 8;
-            System.out.printf("O valor do imposto %.2f", valorImposto);
+        else if(salario <= 3000.00){
+            valorImposto = (salario - 2000.0) * 0.08;
         }
         else if(salario <= 4500.00){
-            valorImposto = (salario / 100) * 18;
-            System.out.printf("O valor do imposto %.2f", valorImposto);
+            valorImposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
         }
         else{
-            valorImposto = (salario / 100) * 28;
+            valorImposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+        }
+
+        if(valorImposto == 0.00) {
+            System.out.printf("O valor do imposto é 0");
+        }
+        else {
             System.out.printf("O valor do imposto %.2f", valorImposto);
         }
 
