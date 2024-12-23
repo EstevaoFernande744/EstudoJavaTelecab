@@ -6,6 +6,7 @@ public class Ex007 {
 
     public static void main(String[] args) {
 
+        System.out.println("Digite um valor de N depois digite valores a serem somados:");
      Scanner sc = new Scanner(System.in);
 
      int N = sc.nextInt();
