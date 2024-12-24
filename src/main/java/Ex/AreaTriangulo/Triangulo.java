@@ -1,6 +1,6 @@
-package Ex;
+package Ex.AreaTriangulo;
 
-public class Ex01021 {
+public class Triangulo {
 
     public double a;
     public double b;
@@ -9,6 +9,6 @@ public class Ex01021 {
     public double area(){
         double p = (a + b + c) / 2.0;
         /*double result =*/ return Math.sqrt(p * (p - a) * (p - b) * (p - c));
-       // return result;
+        // return result;
     }
 }

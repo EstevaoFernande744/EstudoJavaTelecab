@@ -16,7 +16,7 @@ public class Ex001 {
         double price2 = 650.50;
         double measure = 53.234567;
 
-        System.out.printf("Product: \n%s, which price is $ %.2f\n ", product1, price1);
+        System.out.printf("Ex.Product.Product: \n%s, which price is $ %.2f\n ", product1, price1);
         System.out.printf("%s, which price is $ %.2f\n \n \n", product2, price2);
         System.out.printf("Record: %d years old, code %d and gender: %c\n \n \n", age, code, gender);
         System.out.printf("Measue with eight decimal places: %.8f\n", measure);

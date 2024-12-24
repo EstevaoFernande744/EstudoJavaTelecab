@@ -1,29 +1,29 @@
-package Ex;
+package Ex.AreaTriangulo;
 
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Ex0101 {
+public class Ex010x1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        double xA, xB, xC, yA, yB, yC;
+        Triangulo x, y;
+        x = new Triangulo();
+        y = new Triangulo();
 
         System.out.println("Enter with the measures of triangle x: ");
-        xA = sc.nextDouble();
-        xB = sc.nextDouble();
-        xC = sc.nextDouble();
+        x.a = sc.nextDouble();
+        x.b = sc.nextDouble();
+        x.c = sc.nextDouble();
 
         System.out.println("Enter with the measures of triangle x: ");
-        yA = sc.nextDouble();
-        yB = sc.nextDouble();
-        yC = sc.nextDouble();
+        y.a = sc.nextDouble();
+        y.b = sc.nextDouble();
+        y.c = sc.nextDouble();
 
-        double p1 = (xA + xB + xC)/2;
-        double areaX = Math.sqrt(p1 * (p1 - xA)*(p1 - xB)*(p1 - xC));
-        double p2 = (yA + yB + yC)/2;
-        double areaY = Math.sqrt(p2 * (p2 - yA)*(p2 - yB)*(p2 - yC));
+        double areaX = x.area();
+        double areaY = y.area();
 
         System.out.printf("Triangle X area: %.4f\n", areaX);
         System.out.printf("Triangle Y area: %.4f\n", areaY);
