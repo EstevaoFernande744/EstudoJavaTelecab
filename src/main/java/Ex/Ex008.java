@@ -1,4 +1,4 @@
-package com.example;
+package Ex;
 
 import java.util.Scanner;
 import java.util.Locale;
