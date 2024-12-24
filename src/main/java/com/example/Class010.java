@@ -12,8 +12,8 @@ public class Class010 {
         String s03 = original.trim();
         String s04 = original.substring(2);
         String s05 = original.substring(2, 9);
-        String s06 = original.Replace('a', 'x');
-        String s07 = original.Replace('abc', 'xy');
+        String s06 = original.replace('a', 'x');
+        String s07 = original.replace("abc", "xy");
         int i = original.indexOf("bc");
         int j  = original.lastIndexOf("bc");
 
