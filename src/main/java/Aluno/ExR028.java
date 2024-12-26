@@ -17,8 +17,8 @@ public class ExR028 {
         alu.nota3 = sc.nextDouble();
 
         if (alu.notaFinal() < 60.0 ){
-            System.out.println("4° prova");
-            System.out.printf(" Precisa de %.2f pontos.\n", alu.pontos());
+            System.out.printf("4° prova, com %.2f\n", alu.notaFinal());
+            System.out.printf("Precisa de %.2f pontos.\n", alu.pontos());
         }
         else {
             System.out.printf("Aprovado! com %.2f", alu.notaFinal());
