@@ -1,6 +1,6 @@
 package Raio;
 
-public class CalcRaio {
+public class CalcRaio1 {
 
     public final double PI = 3.14159;
 
