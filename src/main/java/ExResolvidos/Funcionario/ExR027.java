@@ -1,4 +1,4 @@
-package Funcionario;
+package ExResolvidos.Funcionario;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class ExR027 {
         func.taxa = sc.nextDouble();
 
         System.out.println();
-        System.out.println("Funcionario: " + func);
+        System.out.println("ExResolvidos.Funcionario: " + func);
         System.out.println();
         System.out.print("Qual porcentagem para aumentar o salário? ");
         double porcentagem = sc.nextDouble();

@@ -1,4 +1,4 @@
-package Raio;
+package ExResolvidos.Raio;
 
 import java.util.Scanner;
 

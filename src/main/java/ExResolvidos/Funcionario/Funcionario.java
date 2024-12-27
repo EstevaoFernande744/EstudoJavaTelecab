@@ -1,4 +1,4 @@
-package Funcionario;
+package ExResolvidos.Funcionario;
 
 public class Funcionario {
 

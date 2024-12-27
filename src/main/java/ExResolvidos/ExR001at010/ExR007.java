@@ -39,9 +39,9 @@ public class ExR007 {
         retangulo2 = D * E;
 
         System.out.printf("Areas: \n Triangulo: %.3f\n Circulo: %.3f\n Trapezio: %.3f\n Quadrado: %.3f\n " +
-                "Retangulo: %.3f\n\n", trianguloR1, circulo1, trapezio1, quadrado1, retangulo1);
+                "ExResolvidos.Raio.Retangulo: %.3f\n\n", trianguloR1, circulo1, trapezio1, quadrado1, retangulo1);
         System.out.printf("Areas: \n Triangulo: %.3f\n Circulo: %.3f\n Trapezio: %.3f\n Quadrado: %.3f\n " +
-                "Retangulo: %.3f\n\n", trianguloR2, circulo2, trapezio2, quadrado2, retangulo2);
+                "ExResolvidos.Raio.Retangulo: %.3f\n\n", trianguloR2, circulo2, trapezio2, quadrado2, retangulo2);
 
     }
 

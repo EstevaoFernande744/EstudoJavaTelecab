@@ -1,4 +1,4 @@
-package Raio;
+package ExResolvidos.Raio;
 
 public class CalcRaio1 {
 
