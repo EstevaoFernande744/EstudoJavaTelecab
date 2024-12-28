@@ -1,4 +1,4 @@
-package Aluno;
+package ExResolvidos.Aluno;
 
 public class Aluno {
 

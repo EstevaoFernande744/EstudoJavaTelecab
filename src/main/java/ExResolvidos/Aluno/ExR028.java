@@ -1,4 +1,4 @@
-package Aluno;
+package ExResolvidos.Aluno;
 
 import java.util.Scanner;
 
