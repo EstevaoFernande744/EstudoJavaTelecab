@@ -1,4 +1,4 @@
-package ExResolvidos.EncaProduct;
+package ExResolvidos.NewProduct;
 
 public class newProduct {
 
