@@ -6,7 +6,6 @@ public class ExR033 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         newProduct np = new newProduct();
 
         System.out.println("Digite o nome do produto: ");

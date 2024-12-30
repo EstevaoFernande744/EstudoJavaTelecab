@@ -27,10 +27,8 @@ public class newProduct {
 
     // -------------------- usando metodo get e set
 
-    public String getNome(){
-        return nome;
-    }
-    public void setName(String nome){
+    public String getNome(){return nome;}
+    public void setNome(String nome){
         this.nome = nome;
     }
 
