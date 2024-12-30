@@ -1,4 +1,4 @@
-package VendaDeCarro;
+package Eleicoes2026;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class test01 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Venda vc = new Venda();
+        Eleicoes vc = new Eleicoes();
 
         int diaDasEleicoes = 26;
         int mesDasEleicoes = 10;

@@ -1,6 +1,6 @@
-package VendaDeCarro;
+package Eleicoes2026;
 
-public class Venda {
+public class Eleicoes {
 
     private int idade;
     private int anoDasEleicoes = 2026;
@@ -13,10 +13,10 @@ public class Venda {
     // sobrecarga
 
     // construtor padrão
-    public Venda(){}
+    public Eleicoes(){}
 
     // construtor com os parâmetros
-    public Venda(int idade, int anoNascimento, int mesNascimento, int diaNascimento) {
+    public Eleicoes(int idade, int anoNascimento, int mesNascimento, int diaNascimento) {
         this.idade = idade;
         this.anoNascimento = anoNascimento;
         this.mesNascimento = mesNascimento;
