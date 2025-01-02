@@ -1,6 +1,6 @@
 package ExResolvidos.Bank;
 
-import java.util.Sanner;
+import java.util.Scanner;
 
 public class ExR034 {
 
