@@ -39,7 +39,7 @@ public class ExR035 {
         System.out.println();
         System.out.print("Digite um valor de saque: ");
         double valorSaque = sc.nextDouble();
-        acc.saque(valorSaque);2
+        acc.saque(valorSaque);
         System.out.println("Saldo da conta: ");
         System.out.println(acc);
 
